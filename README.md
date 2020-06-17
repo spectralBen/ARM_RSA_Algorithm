@@ -1,2 +1,13 @@
-# ARM_RSA_Algorithm
-An RSA algorithm for the ARM instruction set. The power spectrum of the execution is designed to be independent of user input.
+<h1>ARM_RSA_Algorithm</h1>
+This project is the creation of a side-channel resistant RSA algorithm.
+The power spectrum consumed by the code should be independent of user-input (privat key decryption).
+
+<h2>RSA.c</h2>
+The naive implementation of the RSA algorithm, created without attempts to mask the power spectrum.
+The assembly (.s) control flow will be traced to follow control flow and analyse power spectrum. 
+
+<h2>resources.c</h2>
+File used for testing modules of code independently. 
+
+<h2>Target</h2>
+The target architecture is ARMv7, and the current development board is the beaglebone black wireless.
