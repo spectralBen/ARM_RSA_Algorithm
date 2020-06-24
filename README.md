@@ -2,7 +2,7 @@
 This project is the creation of a side-channel resistant RSA algorithm.
 The power spectrum consumed by the code should be independent of user-input (private key decryption).
 
-<h2>RSA.c</h2>
+<h2>standard_RSA.c</h2>
 The naive implementation of the RSA algorithm, created without attempts to mask the power spectrum.
 The assembly (.s) control flow will be traced to follow control flow and analyse power spectrum. 
 
