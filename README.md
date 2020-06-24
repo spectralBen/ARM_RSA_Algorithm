@@ -1,6 +1,6 @@
 <h1>ARM_RSA_Algorithm</h1>
 This project is the creation of a side-channel resistant RSA algorithm.
-The power spectrum consumed by the code should be independent of user-input (privat key decryption).
+The power spectrum consumed by the code should be independent of user-input (private key decryption).
 
 <h2>RSA.c</h2>
 The naive implementation of the RSA algorithm, created without attempts to mask the power spectrum.
